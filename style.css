@@ -170,6 +170,11 @@ padding-top: 10px;
     border-radius: 15px;
 }
 
+.button-text {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
 .button-blue {
   display: flex;
   flex-wrap: wrap;
@@ -207,6 +212,10 @@ padding-top: 10px;
 }
 
 .arrow-blue {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   background-color: var(--blue-solid);
   height: calc(100%);
   width: calc(25%);
@@ -215,6 +224,10 @@ padding-top: 10px;
 }
 
 .arrow-green {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   background-color: var(--green-solid);
   height: calc(100%);
   width: calc(25%);
