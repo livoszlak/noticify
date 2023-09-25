@@ -20,7 +20,6 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
-   
   }
 
 main {
@@ -95,52 +94,132 @@ p.intro {
     word-wrap: normal;
 }
 
-.tag {
+.tag-container {
+padding-left: 10px;
+padding-top: 10px;
+
+}
+
+.office-tag {
     font-size: 12px;
-    font-weight: 400;
-    width: 51px;
-    height: 23px;
+    font-weight: 200;
+    background-color: var(--blue);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.gothenburg-tag {
+  font-size: 12px;
+  font-weight: 200;
+  background-color: var(--yellow);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+}
+
+.animals-tag {
+  font-size: 12px;
+  font-weight: 200;
+  background-color: var(--green);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+}
+
+.money-tag {
+  font-size: 12px;
+  font-weight: 200;
+  background-color: var(--pink);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+}
+
+.jobs-tag {
+  font-size: 12px;
+  font-weight: 200;
+  background-color: var(--green);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
 }
 
 .notice-box {
   display: flex;
+  position: relative;
     height: 270px;
     border-radius: 10px;
     width: calc(50% - 20px);
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
 }
 
 .button-blue {
   display: flex;
+  flex-wrap: wrap;
   border-radius: 15px;
     background-color: var(--blue);
     width: 195px;
     height: 50px;
+    margin-right: 20px;
+    padding-right: 0;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.8rem;
+    font-weight: 200;
 }
 
 .button-green {
   display: flex;
+  flex-wrap: wrap;
   border-radius: 15px;
     background-color: var(--green);
     width: 195px;
     height: 50px;
+    margin-right: 20px;
+    padding-right: 0;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .arrow-blue {
   background-color: var(--blue-solid);
+  height: calc(100%);
+  width: calc(25%);
+  align-self:flex-end;
+  border-radius: 15px;
 }
 
 .arrow-green {
   background-color: var(--green-solid);
+  height: calc(100%);
+  width: calc(25%);
+  align-self:flex-end;
+  border-radius: 15px;
 }
 
 .arrow-red {
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
   width: 42px;
   height: 41px;
   background-color: var(--red);
   align-content: center;
   justify-content: center;
   align-self: flex-end;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 5px 0;
 }
