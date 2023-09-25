@@ -32,6 +32,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .nav-link {
@@ -68,12 +69,22 @@ flex-direction: column;
 h1 {
     font-size: 60px;
     font-weight: 800;
+    margin-top: 0;
   }
 
 h2 {
     font-size: 36px;
     font-weight: 800;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
+
+.notice-box > p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: justify;
+}
 
 .nav-container > h2 {
   font-size: 36px;
@@ -145,14 +156,14 @@ padding-top: 10px;
   border-radius: 3px;
 }
 
-/* */
 .notice-box {
   display: flex;
   position: relative;
+  flex-direction: column;
     height: 270px;
     border-radius: 10px;
-    width: calc(50% - 20px);
-    background-color: rgb(233, 233, 233);
+    width: calc(50% - 10px);
+    box-shadow: 3px 4px 14px #858585;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 15px;
@@ -198,7 +209,7 @@ padding-top: 10px;
   background-color: var(--blue-solid);
   height: calc(100%);
   width: calc(25%);
-  align-self:flex-end;
+  align-self: flex-end;
   border-radius: 15px;
 }
 
@@ -214,8 +225,8 @@ padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  width: 42px;
-  height: 41px;
+  width: 35px;
+  height: 35px;
   background-color: var(--red);
   align-content: center;
   justify-content: center;
