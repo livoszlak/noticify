@@ -5,77 +5,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noticify</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="nav-container"><h2>Noticify</h2>
-      <div class="nav-link"><span class="link">About</span> <span class="link">Contact</span></div>
+    <div class="container nav-container">
+      <h2>Noticify</h2>
+      <div class="nav-link">
+        <span class="link">About</span> <span class="link">Contact</span>
+      </div>
     </div>
- <main> 
-  <div class="column-left">
-  <div class="notice-box">
-    <div class="tag-container">
-      <span class="office-tag">Office</span>
-      <span class="gothenburg-tag">Gothenburg</span>
-    </div>
-    <h2>An amazing office space</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-    <div class="arrow-red"><svg width="19" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#FBFBFB"/>
-      </svg></div>
-  </div>
-  <div class="notice-box">
-  <div class="tag-container">
-    <span class="gothenburg-tag">Gothenburg</span>
-    <span class="animals-tag">Animals</span>
-  </div>
-  <h2>Have you seen my cat?</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod!</p>
-  <div class="arrow-red"><svg width="19" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#FBFBFB"/>
-    </svg></div>
-</div>
-  <div class="notice-box">
-  <div class="tag-container">
-    <span class="gothenburg-tag">Gothenburg</span>
-    <span class="money-tag">Money</span>
-  </div>
-  <h2>Win 5 million dollars!</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, cons</p>
-  <div class="arrow-red"><svg width="19" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#FBFBFB"/>
-    </svg></div>
-</div>
-  <div class="notice-box">
-  <div class="tag-container">
-    <span class="gothenburg-tag">Gothenburg</span>
-    <span class="jobs-tag">Jobs</span>
-  </div>
-  <h2>Developers! Look at this.</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, cons</p>
-  <div class="arrow-red"><svg width="19" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#FBFBFB"/>
-    </svg></div>
-</div>
-</div>
-<div class="column-right">
-    <h1>Welcome to Noticify</h1>
-    <p>A digital notice board where you can find everything! Also, I'm very good at writing these descriptive texts. Have a good day. Stay in school etc.</p>
-    <div class ="button-container">
-    <div class="button-blue"><span class="button-text">Learn more</span>
-      <span class="arrow-blue"><svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#000"/>
-        </svg></span>
-    </div> <div class="button-green"><span class="button-text">Contact us</span>
-      <span class="arrow-green"><svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z" fill="#000"/>
-        </svg></span>
-    </div>
-  </div>
-  </div>
- 
-</main>
+    <main class="container">
+      <div class="column-left">
+        <div class="notice-box">
+          <div class="tag-container">
+            <span class="tag bg-blue">Office</span>
+            <span class="tag bg-yellow">Gothenburg</span>
+          </div>
+          <h2>An amazing office space</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </p>
+          <div class="arrow-red">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 13 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                fill="#FBFBFB"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="notice-box">
+          <div class="tag-container">
+            <span class="tag bg-yellow">Gothenburg</span>
+            <span class="tag bg-green">Animals</span>
+          </div>
+          <h2>Have you seen my cat?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod!
+          </p>
+          <div class="arrow-red">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 13 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                fill="#FBFBFB"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="notice-box">
+          <div class="tag-container">
+            <span class="tag bg-yellow">Gothenburg</span>
+            <span class="tag bg-pink">Money</span>
+          </div>
+          <h2>Win 5 million dollars!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, cons
+          </p>
+          <div class="arrow-red">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 13 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                fill="#FBFBFB"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="notice-box">
+          <div class="tag-container">
+            <span class="tag bg-yellow">Gothenburg</span>
+            <span class="tag bg-green">Jobs</span>
+          </div>
+          <h2>Developers! Look at this.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, cons
+          </p>
+          <div class="arrow-red">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 13 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                fill="#FBFBFB"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="column-right">
+        <h1>Welcome to Noticify</h1>
+        <p>
+          A digital notice board where you can find everything! Also, I'm very
+          good at writing these descriptive texts. Have a good day. Stay in
+          school etc.
+        </p>
+        <div class="button-container">
+          <div class="button bg-blue">
+            <span class="button-text">Learn more</span>
+            <span class="arrow bg-solid-blue"
+              ><svg
+                width="13"
+                height="19"
+                viewBox="0 0 13 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                  fill="#000"
+                /></svg
+            ></span>
+          </div>
+          <div class="button bg-green">
+            <span class="button-text">Contact us</span>
+            <span class="arrow bg-solid-green"
+              ><svg
+                width="13"
+                height="19"
+                viewBox="0 0 13 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.85833 0L0.641663 2.21667L7.925 9.5L0.641663 16.7833L2.85833 19L12.3583 9.5L2.85833 0Z"
+                  fill="#000"
+                /></svg
+            ></span>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
